@@ -1,0 +1,16 @@
+.navigationLink{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* f3 link dim black underline pa3 pointer */
+.signInOut{
+    font-size: x-large;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.signInOut:hover{
+    color: grey;
+}

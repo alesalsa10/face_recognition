@@ -1,0 +1,35 @@
+.imgDiv {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.boundingBox {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.imgSubDiv {
+  position: absolute;
+}
+
+.noFacesMessage {
+  color: red;
+  margin-top: 1rem;
+  font-size: larger;
+}
